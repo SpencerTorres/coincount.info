@@ -1,0 +1,44 @@
+{
+  "name": "coincount.info",
+  "version": "1.0.0",
+  "description": "coincount.info website",
+  "private": true,
+  "author": "Spencer Torres",
+  "LICENSE": "GNU GPL v3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpencerTorres/coincount.info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SpencerTorres/coincount.info/issues"
+  },
+  "homepage": "https://coincount.info",
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "chart.js": "^2.7.1",
+    "currency-symbol-map": "^4.0.3",
+    "fuse.js": "^3.2.0",
+    "moment": "^2.19.1",
+    "query-string": "^5.0.1",
+    "react": "^15.6.1",
+    "react-chartjs-2": "^2.6.4",
+    "react-dom": "^15.6.1",
+    "react-ga": "^2.2.0",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^2.2.7",
+    "react-numeric-input": "^2.2.0",
+    "react-redux": "^5.0.6",
+    "react-route-props": "^1.0.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
