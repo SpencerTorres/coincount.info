@@ -7,7 +7,6 @@ export class CoinBox extends Component {
     let { coin } = this.props
     return (
       <div className='coinTile ticker' onClick={this.props.onClick}>
-        <img src={`https://files.coinmarketcap.com/static/img/coins/64x64/${coin.id}.png`} alt={coin.name}/>
         <h2 style={{margin: 0}}>{coin.name}</h2>
         <h5 style={{margin: 0}} className='subtle'>{coin.symbol}</h5>
       </div>
@@ -33,7 +32,6 @@ export class CoinBoxInput extends Component {
 
     return (
       <div className='coinTile ticker'>
-        <img src={`https://files.coinmarketcap.com/static/img/coins/64x64/${coin.id}.png`} alt={coin.name}/>
         <h2 style={{margin: 0}}>{coin.name}</h2>
         <h5 style={{margin: 0}} className='subtle'>{coin.symbol}</h5>
 

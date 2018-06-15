@@ -12,9 +12,6 @@ export default class Ticker extends Component {
       return <div/>
     return (
       <div className='ticker'>
-        <a href={`https://CoinMarketCap.com/currencies/${coin.id}`} target='_blank' rel='noopener noreferrer'>
-          <img src={`https://files.coinmarketcap.com/static/img/coins/128x128/${coin.id}.png`} alt={coin.name}/>
-        </a>
         <h1 style={{margin: 0}}>{coin.name}</h1>
         <h4 style={{margin: 0}} className='subtle'>{coin.symbol}</h4>
         { parseFloat(owned) > 0 &&

@@ -10,5 +10,5 @@ Technology used:
 - CoinMarketCap.com API
 - AWS S3 + Cloudfront (This is what the live site uses right now; it hosts the React build.)
 
-This project isn't perfect, because it was rushed to meet the 1-day deadline I set for myself.
+This project isn't perfect (especially looking back), because it was rushed to meet the 1-day deadline I set for myself.
 Of course, some code could be cleaned up and redesigned, but the site functions as it was intended.
